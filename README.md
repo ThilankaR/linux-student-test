@@ -2,7 +2,7 @@
 This repository contains several bash scripts designed to manage users, perform file operations, and interact with network drives. Below is a description of each script, along with usage instructions.
 
 Scripts
-1. Create Users Script
+#1. Create Users Script
 This script creates multiple user accounts, assigns them to a specific group, and sets up their home directories with appropriate permissions.
 
 Usage
@@ -11,7 +11,8 @@ Run the script without any arguments:
 bash
 Copy code
 ./create_users.sh
-2. Delete Users Script
+
+#2. Delete Users Script
 This script deletes user accounts within a specified range and removes their home directories.
 
 Usage
@@ -20,7 +21,8 @@ Run the script without any arguments:
 bash
 Copy code
 ./delete_users.sh
-3. Network Drive Backup Script
+
+#3. Network Drive Backup Script
 This script checks for an NFS mount, saves the current user's command history, compresses a specified folder, and uploads it to the network drive.
 
 Usage
@@ -31,7 +33,7 @@ Copy code
 ./network_backup.sh <folder_name>
 Replace <folder_name> with the name of the folder you want to backup and upload.
 
-4. Script Distribution Script
+#4. Script Distribution Script
 This script copies a specified script to multiple user home directories, changes ownership, and makes the script executable.
 
 Usage
